@@ -21,4 +21,9 @@ echo "Uninstalling..."
 rm $EXECUTABLE_SCRIPT
 rm -rf $BIN_DIR
 
+sourceAlias="source $AUTO_ALIAS_SH"
+
+cat $BASHRC | grep -v "$sourceAlias" > "$BASHRC.mod"
+mv "$BASHRC.mod" $BASHRC
+
 echo "Good bye :("
