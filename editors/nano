@@ -1,0 +1,3 @@
+# Configurations for nano
+EDITOR="nano"
+EDITOR_ARGS="-l -Y sh" # sintax and line numbers

@@ -1,0 +1,3 @@
+# Configurations for vim
+EDITOR="vim"
+EDITOR_ARGS='-c "set syntax=bash"'

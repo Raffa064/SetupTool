@@ -1,0 +1,3 @@
+# Configurations for neovim
+EDITOR="nvim"
+EDITOR_ARGS="-c NvimTreeToggle" # expand file explorer
