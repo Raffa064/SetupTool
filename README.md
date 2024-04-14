@@ -10,9 +10,6 @@ $ cd SetupTool
 $ bash ./install.sh
 ```
 
-You can uninstall by using this command:
-$ setup uninstall # It will not delete your setups
-
 # HOW TO USE
 - To create a new setup:
 ```bash
