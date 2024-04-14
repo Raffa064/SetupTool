@@ -54,9 +54,8 @@ if [ $editorSelected -eq 1 ]; then
 fi
 
 # Add to initializaztion
-sourceAlias="source $AUTO_ALIAS_SH"
-if ! grep -q "$sourceAlias" $BASHRC; then
-  echo "$sourceAlias" >> $BASHRC
+if ! grep -q "$BASHRC_SOURCE_ALIAS" $BASHRC; then
+  echo "$BASHRC_SOURCE_ALIAS" >> $BASHRC
 fi
 
 echo "Installed successfully"
