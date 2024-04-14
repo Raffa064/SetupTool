@@ -1,4 +1,7 @@
-# INSTALL & UNINSTAL
+# SETUP TOOL
+This is an **shellscript** tool to create automated setups.
+
+# HOW TO INSTALL
 
 To install setup tool, use this command:
 ```bash
