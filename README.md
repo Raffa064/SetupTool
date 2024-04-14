@@ -3,8 +3,10 @@ This is an **shellscript** tool to create automated setups.
 
 # HOW TO INSTALL
 
-To install setup tool, use this command:
+To install setup tool, use this commands:
 ```bash
+$ git clone https://github.com/Raffa064/SetupTool
+$ cd SetupTool
 $ bash ./install.sh
 ```
 
