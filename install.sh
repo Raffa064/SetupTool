@@ -53,9 +53,13 @@ if [ $editorSelected -eq 1 ]; then
   echo "EDITOR_ARGS=\"$args\"" >> $RC_FILE
 fi
 
+# Create auto alias script
+setup alias
+
 # Add to initializaztion
 if ! grep -q "$BASHRC_SOURCE_ALIAS" $BASHRC; then
   echo "$BASHRC_SOURCE_ALIAS" >> $BASHRC
 fi
 
-echo "Installed successfully"
+echo "Installed successfully!"
+echo "NOTE: You can delete this installation folder now."

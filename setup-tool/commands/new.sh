@@ -24,8 +24,9 @@ if [ ! -e "$SETUP" ]; then
   
   echo "Finished"
   echo 
-  echo "'setup edit $2' to edit this setup."
-  echo "'setup run $2' to run this setup."
+  echo "'setup run $2' or '$2' to run this setup."
+  echo "'setup edit $2' or '.$2' to edit this setup."
+  echo "NOTE: Shortcuts will only be available after reload your terminal."
 else
   echo "Setup already exists"
 fi
